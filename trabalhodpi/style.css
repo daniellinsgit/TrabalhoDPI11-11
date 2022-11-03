@@ -1,0 +1,90 @@
+/*Reset*/
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h5, h4, h6 {
+   font-weight:normal;
+}
+/*Estilo*/
+body {
+    background: hsl(157, 100%, 4%);
+}
+
+a, a:hover {
+    color: hsl(152, 100%, 28%);
+}
+
+a {
+    text-decoration: none;
+font-family:"Tahoma";
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,	h2,	h3, h4, h5, h6 {
+    font-family: Tahoma;
+}
+
+h1 {
+    color: hsl(152, 100%, 28%);
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid hsl(0, 0%, 20%);
+    color: hsl(152, 100%, 28%);
+}
+
+h3 {
+    font-size: 120%;
+}
+
+p {
+    font-family:"Tahoma";
+    color: hsl(0, 0%, 15%);
+    margin-bottom: 1.5em;
+}
+.mainbody {
+			width: 960px;
+		 	margin: 0px auto;
+		 	background: hsl(0, 0%, 100%);
+		 	padding: 0 20px 0 20px;
+		 	line-height: 1.8em
+}
+.autoria {
+            width: 169px;
+            margin: 0px auto;
+            background: hsl(0, 0%, 100%);
+            padding: 0 20px 0 20px;
+            line-height: 1.8em;
+            position: relative;
+            left: 255px;
+}
+.autoral {
+            width: 700px;
+            margin: 0px auto;
+            background: hsl(0, 0%, 100%);
+            padding: 0 20px 0 20px;
+            line-height: 2.0em;
+            position: relative;
+}
+.distribuicaocita{
+            width: 550px;
+            height: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+.coroa{
+            width: 550px;
+            height: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+}
